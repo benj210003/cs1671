@@ -25,7 +25,7 @@ Such model
 
 - Limited resources on code-mixed data
 
-- Large overlap between the use of Han characters in Taiwanese Hokkien and Mandarin Chinese, a rule-based swap does not work well because of low resource on dictionary pairs and segmentation of words could be different in Hokkien and Mandarin.
+- Large overlap between the use of Han characters in Taiwanese Hokkien and Mandarin Chinese, so a rule-based swap wouldn't work well. Correctly segmenting sentences is the key to good performance.
 
 ## Evaluation
 
