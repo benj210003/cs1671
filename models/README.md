@@ -10,8 +10,8 @@
 | Taigi-Llama-2-13B | Continued pre-training of a traditional Chinese Llama2 model using a Hokkien corpus. | 🦙 Base Model | [🤗 Bohanlu/Taigi-Llama-2-13B](https://huggingface.co/Bohanlu/Taigi-Llama-2-13B) | 
 | Taigi-Llama-2-Translator-7B | Fine-tuning Taigi-Llama-2 with parallel data in Taiwanese Hokkien, Mandarin Chinese, and English. | 🔁 Translation Model | [🤗 Bohanlu/Taigi-Llama-2-Translator-7B](https://huggingface.co/Bohanlu/Taigi-Llama-2-Translator-7B) |
 | Taigi-Llama-2-Translator-13B | Fine-tuning Taigi-Llama-2 with parallel data in Taiwanese Hokkien, Mandarin Chinese, and English. | 🔁 Translation Model | [🤗 Bohanlu/Taigi-Llama-2-Translator-13B](https://huggingface.co/Bohanlu/Taigi-Llama-2-Translator-13B) |
-| $\color{red}{\textsf{Taigi-Llama-2-Translator-7B + CM datasets}}$ | Fine-tuning Taigi-Llama-2-Translator-7B with parallel code-mixed data in Taiwanese Hokkien (matrix) and Mandarin Chinese (embedding). | 🆕 Our Model | |
-| $\color{red}{\textsf{Taigi-Llama-2-Translator-13B + CM datasets}}$ | Fine-tuning Taigi-Llama-2-Translator-13B with parallel code-mixed data in Taiwanese Hokkien (matrix) and Mandarin Chinese (embedding). | 🆕 Our Model | |
+| $\color{green}{\textsf{Taigi-Llama-2-Translator-7B + CM datasets}}$ | Fine-tuning Taigi-Llama-2-Translator-7B with parallel code-mixed data in Taiwanese Hokkien (matrix) and Mandarin Chinese (embedding). | 🆕 Our Model | |
+| $\color{green}{\textsf{Taigi-Llama-2-Translator-13B + CM datasets}}$ | Fine-tuning Taigi-Llama-2-Translator-13B with parallel code-mixed data in Taiwanese Hokkien (matrix) and Mandarin Chinese (embedding). | 🆕 Our Model | |
 
 ## Other Potentially Useful Models
 
