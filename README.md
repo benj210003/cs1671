@@ -17,9 +17,9 @@ Such model
 
 - can be used to automatically annotate code-mixed Mandarin-Hokkien speech data
 
-- can be used in education to slow down or reverse the dying language
+- can be used in education in many ways to slow down or reverse the dying language
 
-- can facilitate Mandarin readers to read Taiwanese literature
+- can facilitate Mandarin readers to read Taiwanese literature by identifying Hokkien words and translating them to Mandarin
 
 ## Challenges
 
