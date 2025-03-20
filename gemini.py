@@ -84,8 +84,8 @@ if __name__ == "__main__":
     output: 伊的@@修##@@養##真好，攏袂佮人冤家。
     """
 
-    responses = n_shot(processed_data, prompt_zs_en)
-    file_path = 'responses.csv'
+    responses = n_shot(processed_data, prompt_fs_en)
+    file_path = 'prompt_fs_en.csv'
 
     with open(file_path, 'w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
