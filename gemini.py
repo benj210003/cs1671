@@ -90,8 +90,8 @@ if __name__ == "__main__":
         上 Is from Mandarin
         門 Is from Mandarin
         的 Is from Mandarin
-        @@客## Is from Hokkien
-        @@人## Is from Hokkien
+        客 Is from Hokkien
+        人 Is from Hokkien
         試 Is from Mandarin
         食 Is from Mandarin
 
