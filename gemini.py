@@ -84,6 +84,20 @@ if __name__ == "__main__":
     output: 伊的@@修##@@養##真好，攏袂佮人冤家。
     """
 
+    prompt_cot_en = prompt_en + """Below are some examples.
+        Which words are Hokkien in this sentence: 請上門的客人試食?
+        請 Is from Mandarin
+        上 Is from Mandarin
+        門 Is from Mandarin
+        的 Is from Mandarin
+        @@客## Is from Hokkien
+        @@人## Is from Hokkien
+        試 Is from Mandarin
+        食 Is from Mandarin
+
+        Output: 請上門的@@客##@@人##試食
+    """
+
     responses = n_shot(processed_data, prompt_fs_en)
     file_path = 'prompt_fs_en.csv'
 
