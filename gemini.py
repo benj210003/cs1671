@@ -31,10 +31,13 @@ def n_shot(processed_data, prompt):
         retries = 0
         while retries < max_retries:
             try:
+                next_prompt = prompt + f'''
+                    Which words are Hokkien in this sentence: {line}?
+                '''
                 print("Sending prompt")
                 response = client.models.generate_content(
                     model=MODEL,
-                    contents=prompt + line
+                    contents=next_prompt
                 )
                 print("Response succesfull")
                 responses.append(response.text)
@@ -99,7 +102,7 @@ if __name__ == "__main__":
     """
 
     responses = n_shot(processed_data, prompt_fs_en)
-    file_path = 'prompt_fs_en.csv'
+    file_path = 'prompt_cot_en.csv'
 
     with open(file_path, 'w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
