@@ -13,7 +13,7 @@ def process(s):
     return s
 
 if __name__ == "__main__":
-    with open('fine_tuning_data.jsonl', mode='w', newline='', encoding='utf-8') as outfile:
+    with open('preprocessed_data.jsonl', mode='w', newline='', encoding='utf-8') as outfile:
         data = read_data()
         
         for row in data:
@@ -21,8 +21,10 @@ if __name__ == "__main__":
             response = row.replace("\n", "")
             
             fine_tuning_data = {
-                "prompt": prompt,
-                "completion": response
+                "messages": [
+                    {"role": "user", "content": prompt},
+                    {"role": "assistant", "content": response}
+                ]
             }
             
             # Write this dictionary as a JSON object to the output file (JSON Lines format)
