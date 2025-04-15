@@ -1,0 +1,8 @@
+Hi Pitt NLP classes,
+
+Your fine-tuning job ftjob-r0sGHEG4iaq5WyB0gnahc7Va has successfully completed, and a new model ft:gpt-3.5-turbo-0125:pitt-nlp-classes::BMc4CL1s has been created for your use.
+
+Try it out on the OpenAI Playground, view the training results in the fine-tuning UI, or integrate it into your application using the Chat Completions or Legacy Completions API.
+
+Thank you for building on the OpenAI platform,
+The OpenAI team
